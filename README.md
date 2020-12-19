@@ -1,2 +1,2 @@
 # wechaty-puppet-macOS
-Wechaty Puppet Provider: macOs，make your macos as a service provider for your self.
+Wechaty Puppet Provider: macOS，make your macOS as a service provider for your self.
