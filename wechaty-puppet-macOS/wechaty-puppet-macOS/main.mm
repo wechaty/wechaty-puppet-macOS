@@ -6,3 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSObject+Hook.h"
+
+static void __attribute__((constructor)) initialize(void) {
+    NSLog(@"++++++++ wechaty-puppet-macOS ++++++++");
+    [NSObject hookWeChat];
+}
